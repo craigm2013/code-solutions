@@ -1,6 +1,5 @@
 public class main {
     public static void main(String[] args){
-        
     }
     
     static public double findMedianSortedArrays(int[] nums1, int[] nums2) {
