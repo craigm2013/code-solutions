@@ -67,47 +67,6 @@ public class App {
             
             
         } 
-        
-       // total += tempVal;
-
-        /* 
-        for(int i = 1; i < s.length(); i++){
-            curVal = eleToInt(s.charAt(0));
-            
-            if(i == s.length()-1){
-                //total = curVal;
-                total += tempVal;
-            }   
-            else{
-                nextVal = eleToInt(s.charAt(i+1));
-            }
-
-            if(curVal == nextVal){
-                tempVal += curVal;
-            }
-            else if(curVal <= nextVal){
-                tempVal -= curVal;
-                System.out.println("AAAAH" + tempVal);
-                tempVal += nextVal;
-                System.out.println("AAAAH" + tempVal);
-            }
-            else if(curVal > nextVal){
-                tempVal += curVal;
-                System.out.println("AAAAH" + tempVal);
-                total += tempVal;
-                System.out.println("AAAAH" + tempVal);
-                tempVal = 0;
-            }
-
-            /*else if(curVal < eleToInt(s.charAt(i+1))){
-                total -= curVal;
-            }
-            else if (curVal == eleToInt(s.charAt(i+1))){
-                tempVal += curVal;
-            }
-            else if(curVal >= eleToInt(s.charAt(i+1))){
-                total += curVal;
-            }*/
 
         return total;
         
