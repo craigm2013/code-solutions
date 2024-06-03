@@ -1,18 +1,25 @@
-## Getting Started
+Given an integer n, return the smallest prime palindrome greater than or equal to n.
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+An integer is prime if it has exactly two divisors: 1 and itself. Note that 1 is not a prime number.
 
-## Folder Structure
+For example, 2, 3, 5, 7, 11, and 13 are all primes.
+An integer is a palindrome if it reads the same from left to right as it does from right to left.
 
-The workspace contains two folders by default, where:
+For example, 101 and 12321 are palindromes.
+The test cases are generated so that the answer always exists and is in the range [2, 2 * 108].
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+ 
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Example 1:
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+Input: n = 6
+Output: 7
+Example 2:
 
-## Dependency Management
+Input: n = 8
+Output: 11
+Example 3:
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Input: n = 13
+Output: 101
+ 
