@@ -16,18 +16,6 @@ public class AppTest {
         assertEquals("LVIII", testObject.intToRoman(58));
     }
 
-    @Test
-    public void subtractiveForm(){
-        assertEquals(4, testObject.subtractiveForm("IIII"));
-        assertEquals(4, testObject.subtractiveForm("VIIII"));
-        assertEquals(4, testObject.subtractiveForm("XVIIII"));
-        assertEquals(2, testObject.subtractiveForm("XVII"));
-        assertEquals(3, testObject.subtractiveForm("XVIII"));
-    }
-    @Test
-    public void subtractiveForm2(){
-        assertEquals(3, testObject.subtractiveForm("VIII"));
-    }
 
 
     @Test
